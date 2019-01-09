@@ -1,15 +1,15 @@
-body {
-  font-family: cursive;
+html {
+  font-family: Lato, sans-serif;
   color:yellow;
-  background: green;
+  background: #FFDDA1;
 
 }
 
 .table {
   text-align: center;
-  font-family: sans-serif;
-
-  background: purple;
+  font-family: Lato, sans-serif;
+  border: 2px solid #628395
+  background: rebeccapurple;
 }
 
 /* I will add more CSS styling */
