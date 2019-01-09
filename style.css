@@ -5,11 +5,16 @@ body {
 
 }
 
-.table {
-  text-align: center;
-  font-family: Lato, sans-serif;
-  border: 2px solid #628395
-  background: rebeccapurple;
+#navbar {
+  background-color: blue;
+}
+/*Corrections or modifications needed below*/
+#navbar a {
+  color:white;
+
 }
 
+#navbar h1 {
+  
+}
 /* I will add more CSS styling */
