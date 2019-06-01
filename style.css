@@ -29,8 +29,13 @@ a :active {
 #navbar h1 {
   font-family: cursive;
 }
-/*
+
 .box {
-	
+	border: solid 2px #4286f4;
+	border-radius: 9px;
 }
-*/
+
+#content	{
+	align: center;
+	width: 150px;
+}
