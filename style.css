@@ -32,10 +32,18 @@ a :active {
 
 .box {
 	border: solid 2px #4286f4;
-	border-radius: 9px;
+	border-radius: 2px;
 }
 
 #content	{
-	align: center;
-	width: 150px;
+	float: center;
+	width: 500px;
+}
+
+#footer	{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 5px;
 }
