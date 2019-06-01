@@ -5,17 +5,32 @@ body {
 
 }
 
+a	{
+	color: #4286f4;
+}
+/*styling for link coloring when hovered, pressed etc */
+a :hover, :focus	{
+	color: #22a4d8;
+}
+a :active {
+	color: #6a22d8;
+}
+
 #navbar {
-  background-color: blue;
+  background-color: #22d889;
   text-align: center;
 }
-/*Corrections or modifications needed below*/
+
 #navbar a {
   color:white;
 
 }
 
 #navbar h1 {
-  
+  font-family: cursive;
 }
-/* I will add more CSS styling */
+/*
+.box {
+	
+}
+*/
