@@ -4,6 +4,10 @@ body {
   background: #FFDDA1;
 
 }
+::selection	{
+	color: white;
+	background-color: #3026a5;
+}
 
 a	{
 	color: #4286f4;
