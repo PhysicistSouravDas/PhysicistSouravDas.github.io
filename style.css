@@ -1,7 +1,9 @@
 body {
   font-family: Lato, sans-serif;
   color:black;
+  /*
   background: #FFDDA1;
+  */
 
 }
 ::selection	{
@@ -9,17 +11,26 @@ body {
 	background-color: #3026a5;
 }
 
+.special-heading	{
+	font-family: 'VT323', monospace;
+}
+
+/*
 a	{
 	color: #4286f4;
 }
+*/
 /*styling for link coloring when hovered, pressed etc */
+/*
 a :hover, :focus	{
 	color: #22a4d8;
 }
 a :active {
 	color: #6a22d8;
 }
+*/
 
+/*
 #navbar {
   background-color: #22d889;
   text-align: center;
@@ -51,3 +62,4 @@ a :active {
 	padding: 3px;
 	margin: 5px;
 }
+*/
