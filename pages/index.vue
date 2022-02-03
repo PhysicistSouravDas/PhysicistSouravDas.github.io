@@ -8,10 +8,8 @@ export default {
   name: 'IndexPage',
   components: {
     HomeHeader,
-  }
+  },
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

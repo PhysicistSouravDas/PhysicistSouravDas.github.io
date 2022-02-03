@@ -18,8 +18,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=VT323&display=swap'
-      }
+        href: 'https://fonts.googleapis.com/css2?family=VT323&display=swap',
+      },
     ],
   },
 
@@ -65,9 +65,9 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: 'prism-themes/themes/prism-cb.css'
-      }
-    }
+        theme: 'prism-themes/themes/prism-cb.css',
+      },
+    },
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

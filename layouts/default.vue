@@ -96,7 +96,7 @@ export default {
 #site-title {
   font-family: 'VT323', monospace;
 }
-#site-footer  {
-  font-family:'Courier New', Courier, monospace;
+#site-footer {
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>

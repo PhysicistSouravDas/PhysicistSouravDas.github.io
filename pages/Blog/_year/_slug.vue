@@ -1,26 +1,28 @@
 <template>
   <div>
-      <v-alert
+    <v-alert
       color="red darken-4"
-      rounded="" elevation="24" dismissible
-      max-width="700" class="mx-auto">
-        Year: {{ $route.params.year }}
-        Slug: {{ $route.params.slug }}
-        Path: {{ $route.path }}
-      </v-alert>
+      rounded=""
+      elevation="24"
+      dismissible
+      max-width="700"
+      class="mx-auto"
+    >
+      Year: {{ $route.params.year }} Slug: {{ $route.params.slug }} Path:
+      {{ $route.path }}
+    </v-alert>
     <v-card max-width="700" class="mx-auto pa-4">
       <h1>{{ blogpost.title }}</h1>
       <p>{{ blogpost.description }}</p>
       <p>Posted on: {{ formatDate(blogpost.createdAt) }}</p>
-      <p v-show=" blogpost.createdAt  !== blogpost.updatedAt">
-        Updated on: {{ formatDate(blogpost.updatedAt) }}<br/>
+      <p v-show="blogpost.createdAt !== blogpost.updatedAt">
+        Updated on: {{ formatDate(blogpost.updatedAt) }}<br />
         {{ blogpost.createdAt }}
       </p>
       <author :author="blogpost.author"></author>
       <nuxt-content :document="blogpost"></nuxt-content>
     </v-card>
     <nuxt-link to="/blog">Back to Blog Home</nuxt-link>
-    
   </div>
 </template>
 
@@ -28,7 +30,7 @@
 import Author from '../../../components/Author.vue'
 export default {
   components: {
-    Author
+    Author,
   },
   async asyncData({ $content, params }) {
     const blogpost = await $content('blog', params.year, params.slug).fetch()
@@ -36,18 +38,16 @@ export default {
     return { blogpost }
   },
   methods: {
-    formatDate(date)  {
+    formatDate(date) {
       // method to format date nicely
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
-    }
+    },
   },
   created() {
     console.log(this.$route)
-  }
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

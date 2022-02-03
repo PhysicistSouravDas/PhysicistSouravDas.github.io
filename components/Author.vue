@@ -3,7 +3,7 @@
     <v-card class="mx-auto ma-4" max-width="inherit" color="info">
       <v-card-title>
         <v-avatar size="56">
-          <img :src="author.image">
+          <img :src="author.image" />
         </v-avatar>
         <p class="ml-3">{{ author.name }}</p>
       </v-card-title>
@@ -18,8 +18,8 @@ export default {
   props: {
     author: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
