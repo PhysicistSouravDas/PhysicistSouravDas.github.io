@@ -15,12 +15,12 @@
 export default {
   async asyncData({ $content, params }) {
     const blogposts = await $content('blog', { deep: true }).fetch()
-    console.log(blogposts)
+    // console.log(blogposts)
 
     return { blogposts }
   },
-  created() {
-    console.log(this.$route)
-  },
+  // created() {
+  //   console.log(this.$route)
+  // },
 }
 </script>

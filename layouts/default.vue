@@ -7,6 +7,7 @@
       fixed
       :expand-on-hover="false"
       bottom
+      disable-resize-watcher
       app
     >
       <v-list>
@@ -39,7 +40,11 @@
       </v-btn> -->
       <v-toolbar-title id="site-title" v-text="title" />
       <v-spacer />
-      <v-btn href="https://github.com" target="_blank" icon>
+      <v-btn
+        href="https://github.com/PhysicistSouravDas/PhysicistSouravDas.github.io"
+        target="_blank"
+        icon
+      >
         <v-icon>mdi-github</v-icon>
       </v-btn>
     </v-app-bar>
@@ -48,8 +53,10 @@
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer id="site-footer" fixed app>
+    <v-footer id="site-footer" app inset absolute outlined>
       <span>&copy; {{ new Date().getFullYear() }} PhysicistSouravDas</span>
+      <v-spacer></v-spacer>
+      Made with ❤️ using Nuxt 🔥
     </v-footer>
   </v-app>
 </template>

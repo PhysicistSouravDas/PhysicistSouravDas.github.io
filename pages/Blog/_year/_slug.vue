@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-alert
+      v-show="false"
       color="red darken-4"
       rounded=""
       elevation="24"
@@ -44,9 +45,21 @@ export default {
       return new Date(date).toLocaleDateString('en', options)
     },
   },
-  created() {
-    console.log(this.$route)
-  },
+  // created() {
+  //   console.log(this.$route)
+  // },
+  head()  {
+    return  {
+      title: this.blogpost.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.blogpost.description
+        }
+      ]
+    }
+  }
 }
 </script>
 
