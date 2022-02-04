@@ -65,7 +65,7 @@ export default {
     manifest: {
       lang: 'en',
       background_color: '#121212',
-      theme_color: '#272727'
+      theme_color: '#272727',
     },
   },
 

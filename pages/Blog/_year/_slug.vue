@@ -48,18 +48,18 @@ export default {
   // created() {
   //   console.log(this.$route)
   // },
-  head()  {
-    return  {
+  head() {
+    return {
       title: this.blogpost.title,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.blogpost.description
-        }
-      ]
+          content: this.blogpost.description,
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
