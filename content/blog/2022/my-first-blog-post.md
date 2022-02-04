@@ -7,6 +7,10 @@ author:
   image: https://www.gravatar.com/avatar/89ab578e60d83d52fe015a73741629fa?s=200&d=retro
 createdAt: 2022-02-03T15:58:28.498Z
 updatedAt: 2022-02-03T15:58:28.498Z
+series: false
+tags:
+  - vuejs
+  - nuxt
 ---
 
 <!-- <author :author="author"></author> -->
