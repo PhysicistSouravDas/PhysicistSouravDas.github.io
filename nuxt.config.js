@@ -23,8 +23,14 @@ export default {
     ],
   },
 
+  // Progress bar: https://nuxtjs.org/docs/features/loading/
+  loading: {
+    color: '#41B883',
+    height: '5px',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/assets/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -58,6 +64,8 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      background_color: '#121212',
+      theme_color: '#272727'
     },
   },
 
