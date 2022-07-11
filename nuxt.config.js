@@ -75,6 +75,9 @@ export default {
       prism: {
         theme: 'prism-themes/themes/prism-cb.css',
       },
+      // plugins for LaTeX
+      remarkPlugins: ['remark-math'],
+      rehypePlugins: ['rehype-mathjax'],
     },
   },
 

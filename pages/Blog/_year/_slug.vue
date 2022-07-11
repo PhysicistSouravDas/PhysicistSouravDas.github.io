@@ -18,7 +18,7 @@
       <p>Posted on: {{ formatDate(blogpost.createdAt) }}</p>
       <p v-show="blogpost.createdAt !== blogpost.updatedAt">
         Updated on: {{ formatDate(blogpost.updatedAt) }}<br />
-        {{ blogpost.createdAt }}
+        <!-- {{ blogpost.createdAt }} -->
       </p>
       <author :author="blogpost.author"></author>
       <nuxt-content :document="blogpost"></nuxt-content>

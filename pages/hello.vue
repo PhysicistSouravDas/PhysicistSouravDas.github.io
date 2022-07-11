@@ -6,7 +6,9 @@
       </v-card-title>
       <v-card-text>
         {{ page.description }}
-        {{ page.createdAt }}
+        <v-chip>
+        {{ convertDate(page.createdAt) }}
+        </v-chip>
         {{ page.slug }}
         <nuxt-content :document="page" />
       </v-card-text>
@@ -18,6 +20,7 @@
 export default {
   async asyncData({ $content, params, error }) {
     const slug = params.slug || 'hello'
+    console.log(error)
     const page = await $content(slug)
       .fetch()
       .catch((err) => {
@@ -28,6 +31,11 @@ export default {
       page,
     }
   },
+  methods: {
+    convertDate(date) {
+      return new Date(date).toDateString();
+    }
+  }
 }
 </script>
 
