@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="blog-post">
     <v-alert
       v-show="false"
       color="red darken-4"
@@ -63,4 +63,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+div.blog-post {
+  font-family: 'Lato', sans-serif;
+}
+</style>
