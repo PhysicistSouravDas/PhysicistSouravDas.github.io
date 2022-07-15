@@ -108,12 +108,9 @@ export default {
   // https://www.npmjs.com/package/@nuxtjs/dayjs#usage
   // we need this library for displaying 'n days ago...'
   dayjs: {
-    locales: ['en',],
+    locales: ['en'],
     defaultLocale: 'en',
     defaultTimeZone: 'Asia/Tokyo',
-    plugins: [
-      'utc',
-      'timezone'
-    ]
+    plugins: ['utc', 'timezone'],
   },
 }

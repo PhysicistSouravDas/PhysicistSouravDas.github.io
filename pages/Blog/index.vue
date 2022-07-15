@@ -37,17 +37,17 @@ export default {
   methods: {
     daysAgo(postDate) {
       // https://day.js.org/docs/en/plugin/relative-time
-      var relativeTime = require('dayjs/plugin/relativeTime');
-      this.$dayjs.extend(relativeTime);
+      var relativeTime = require('dayjs/plugin/relativeTime')
+      this.$dayjs.extend(relativeTime)
 
-      const dateToDisplay = this.$dayjs().to(postDate);
+      const dateToDisplay = this.$dayjs().to(postDate)
       // const dateToDisplay = this.$dayjs(postDate).fromNow();
-      return dateToDisplay;
+      return dateToDisplay
     },
-    formatDate(postDate)  {
-      const dateToDisplay = this.$dayjs(postDate);
-      return dateToDisplay;
-    }
+    formatDate(postDate) {
+      const dateToDisplay = this.$dayjs(postDate)
+      return dateToDisplay
+    },
   },
   // created() {
   //   console.log(this.$route)

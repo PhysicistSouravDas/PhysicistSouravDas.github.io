@@ -7,7 +7,7 @@
       <v-card-text>
         {{ page.description }}
         <v-chip>
-        {{ convertDate(page.createdAt) }}
+          {{ convertDate(page.createdAt) }}
         </v-chip>
         {{ page.slug }}
         <nuxt-content :document="page" />
@@ -33,9 +33,9 @@ export default {
   },
   methods: {
     convertDate(date) {
-      return new Date(date).toDateString();
-    }
-  }
+      return new Date(date).toDateString()
+    },
+  },
 }
 </script>
 
