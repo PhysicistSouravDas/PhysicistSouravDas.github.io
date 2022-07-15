@@ -20,6 +20,11 @@
         Updated on: {{ formatDate(blogpost.updatedAt) }}<br />
         <!-- {{ blogpost.createdAt }} -->
       </p>
+      <v-row v-show="blogpost.tags">
+        <v-col cols="auto" v-bind:key="tag.id" v-for="tag in blogpost.tags">
+          <v-chip small>{{ tag }}</v-chip>
+        </v-col>
+      </v-row>
       <author :author="blogpost.author"></author>
       <nuxt-content :document="blogpost"></nuxt-content>
     </v-card>
