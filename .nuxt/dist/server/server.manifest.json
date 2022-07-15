@@ -1,0 +1,29 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/author.js": "components/author.js",
+    "components/home-header.js": "components/home-header.js",
+    "components/nuxt-logo.js": "components/nuxt-logo.js",
+    "components/vuetify-logo.js": "components/vuetify-logo.js",
+    "pages/Blog/_year/_slug.js": "pages/Blog/_year/_slug.js",
+    "pages/Blog/index.js": "pages/Blog/index.js",
+    "pages/hello.js": "pages/hello.js",
+    "pages/index.js": "pages/index.js",
+    "pages/inspire.js": "pages/inspire.js",
+    "pages/vuetify.js": "pages/vuetify.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/author.js": "components/author.js.map",
+    "components/home-header.js": "components/home-header.js.map",
+    "components/nuxt-logo.js": "components/nuxt-logo.js.map",
+    "components/vuetify-logo.js": "components/vuetify-logo.js.map",
+    "pages/Blog/_year/_slug.js": "pages/Blog/_year/_slug.js.map",
+    "pages/Blog/index.js": "pages/Blog/index.js.map",
+    "pages/hello.js": "pages/hello.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/inspire.js": "pages/inspire.js.map",
+    "pages/vuetify.js": "pages/vuetify.js.map",
+    "server.js": "server.js.map"
+  }
+}

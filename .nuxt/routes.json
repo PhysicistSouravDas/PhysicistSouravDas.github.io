@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Blog",
+    "path": "/Blog",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/Blog/index.vue",
+    "chunkName": "pages/Blog/index",
+    "_name": "_35b87778"
+  },
+  {
+    "name": "hello",
+    "path": "/hello",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/hello.vue",
+    "chunkName": "pages/hello",
+    "_name": "_21cd966f"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_19988192"
+  },
+  {
+    "name": "vuetify",
+    "path": "/vuetify",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/vuetify.vue",
+    "chunkName": "pages/vuetify",
+    "_name": "_bd8d8a2a"
+  },
+  {
+    "name": "Blog-year-slug",
+    "path": "/Blog/:year/:slug?",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/Blog/_year/_slug.vue",
+    "chunkName": "pages/Blog/_year/_slug",
+    "_name": "_739aa67d"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/physicistsouravdas/Public/Dev/Vuejs/PhysicistSouravDas.github.io/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_ab50b322"
+  }
+]

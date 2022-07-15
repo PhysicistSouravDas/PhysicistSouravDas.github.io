@@ -1,0 +1,14 @@
+{
+  "Author": {
+    "description": "Auto imported from components/Author.vue"
+  },
+  "HomeHeader": {
+    "description": "Auto imported from components/HomeHeader.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
