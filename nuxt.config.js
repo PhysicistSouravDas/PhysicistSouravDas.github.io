@@ -52,6 +52,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://www.npmjs.com/package/@nuxtjs/dayjs
+    '@nuxtjs/dayjs',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -102,4 +104,16 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // https://www.npmjs.com/package/@nuxtjs/dayjs#usage
+  // we need this library for displaying 'n days ago...'
+  dayjs: {
+    locales: ['en',],
+    defaultLocale: 'en',
+    defaultTimeZone: 'Asia/Tokyo',
+    plugins: [
+      'utc',
+      'timezone'
+    ]
+  },
 }
